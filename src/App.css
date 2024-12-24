@@ -1,0 +1,24 @@
+.App {
+	width: 300px;
+	margin: auto;
+	text-align: center;
+}
+
+.ToggleButton {
+	display: block;
+	margin: auto;
+	padding: 24px;
+	font-size: 40px;
+	border-radius: 12px;
+	margin-top: 40px;
+}
+.ToggleButton span {
+	display: block;
+	font-size: inherit;
+}
+.ToggleButton span[data-icon]::after {
+	content: attr(data-icon);
+}
+.grid {
+	text-align: left;
+}
